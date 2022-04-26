@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+.weather-text{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#menu_link_back{
+  top: 91%;
+}
+
+@media(max-width:1024px) {
+  #menu_link_back {
+    top: -1%;
+    left: -2%;
+  }
+}
+
+@media(max-width:650px) {
+  #menu_link_back {
+    top: -1%;
+    left: -2%;
+}
+}

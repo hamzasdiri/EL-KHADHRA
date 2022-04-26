@@ -1,0 +1,17 @@
+.video {
+    margin-top: 1rem;
+    width: 70%;
+    transform: translateX(20%);
+}
+.text-box {
+    text-align: center;
+    margin-top: 50px;
+    }
+  
+
+    @media(max-width:1024px) {
+        .video {
+            width: 90%;
+            transform: translateX(5%);
+        }
+    }

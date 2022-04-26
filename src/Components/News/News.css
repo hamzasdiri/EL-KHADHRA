@@ -1,0 +1,117 @@
+.posts {
+    margin:60px auto;
+    border:1px solid #dfdfdf;
+    max-width:60%;
+    padding:40px;
+    line-height:1.5em;
+    text-align:justify;
+    border-radius:8px;
+    height: 20rem;
+    box-shadow: inset 100px -500px 300px -50px rgba(0, 0, 0, 0.9);
+    display: flex;
+  }
+  .posts h1, h2{
+      margin-top: 20px;
+    text-align:center;
+    color: white
+  }
+  .imgPost{
+    width: 40%;
+    height: 100%;
+    margin-right: -30px;
+  }
+  #menu_link_back_news {
+    top: -1%;
+    left: -2%;
+}
+  a {
+    text-decoration:none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  a:hover {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+ 
+  
+  /* start STYLE 6 */
+  
+  .style-6 {
+    background:#defac3;
+    border:3px solid #5bb700;
+    color:#5bb700;
+    font:12px Montserrat;
+    text-transform:uppercase;  
+    padding:10px;
+    font-weight:600;
+    max-width:200px; /* max width of button */
+    display:block;
+    position:relative;
+    left:35%;
+    text-align: center;
+  }
+  .style-6:before {
+    content:">";
+    position:absolute;
+    right:-21px;
+    top:-3px;
+    border-radius:100%;
+    background:#5bb700;
+    color:#fff;
+    font-size:20px;
+    width:41px;
+    height:41px;
+    line-height:39px;
+    text-align:center;
+    font-family:consolas;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .style-6:hover:before {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+  }
+  .style-6:hover {
+    background:transparent;
+    border-color:#5bb700;
+    color:#5bb700;  
+    letter-spacing:3px;
+  }
+  
+  /* end STYLE 6 */
+  
+  @media(max-width:1024px) {
+    .posts {
+      height: 27rem;
+    }
+   
+    
+}
+
+@media(max-width:600px) {
+    .posts {
+        height: 40rem;
+      }
+      
+
+}
