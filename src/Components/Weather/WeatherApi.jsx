@@ -59,7 +59,7 @@ function WeatherApi() {
     <option value="زغوان"></option>
     
   </datalist>
-      <input type="submit" id="submit" onClick={search} />
+      <input type="submit" id="submit" value="اضغط" onClick={search} />
       </div>
       <div className="container">
         <div className="top">
