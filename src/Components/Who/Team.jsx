@@ -79,12 +79,7 @@ function Team() {
       
     </div>
     <div className="profiles profiles-2">
-      <div className="profile">
-        <img src={img8} className="profile-img" />
-        <h3 className="user-name">Ben gandia Ahmed Aziz</h3>
-        <p>
-        </p>
-      </div>
+      
       <div className="profile">
         <img src={img9} className="profile-img" />
         <h3 className="user-name">Ben Aissa Ahmed</h3>
@@ -130,26 +125,13 @@ function Team() {
         </p>
       </div>
       <div className="profile">
-        <img src={img15} className="profile-img" />
-        <h3 className="user-name">Khaireddine Menyara</h3>
-        <p>
-          
-        </p>
-      </div>
-      <div className="profile">
         <img src={img16} className="profile-img" />
         <h3 className="user-name">Jabri Rafed</h3>
         <p>
           
         </p>
       </div>
-      <div className="profile">
-        <img src={img17} className="profile-img" />
-        <h3 className="user-name">Ben Nejma Nourredine</h3>
-        <p>
-          
-        </p>
-      </div>
+      
       
     </div>
   </div>

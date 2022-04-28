@@ -1,53 +1,21 @@
-import React, { Component } from 'react';
+import React,{useState} from 'react';
 
-const options = [
-    {
-      label: "Apple",
-      value: "apple",
-    },
-    {
-      label: "Mango",
-      value: "mango",
-    },
-    {
-      label: "Banana",
-      value: "banana",
-    },
-    {
-      label: "Pineapple",
-      value: "pineapple",
-    },
-  ];
-class Test extends React.Component {
-    
-    constructor(props) {
-      super(props);
-      this.state = {
-        fruit: "",
-      };
-  
-      this.handleChange = this.handleChange.bind(this);
-    }
-  
-    handleChange(e) {
-      console.log("Fruit Selected!!");
-      this.setState({ fruit: e.target.value });
-      console.log(this.state);
-    }
-  
-    render() {
-      return (
-        <div id="Test">
-          <div className="select-container">
-            <select value={this.state.fruit} onChange={this.handleChange}>
-              {options.map((option) => (
-                <option value={option.value}>{option.label}</option>
-              ))}
-            </select>
-          </div>
-        </div>
-      );
-    }
-  }
-  
-  export default Test;
+function Test() {
+  const [readMore,setReadMore]=useState(false);
+  const extraContent=<div>
+      <p className="extra-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consectetur neque ab 
+        porro quasi culpa nulla rerum quis minus voluptatibus sed hic ad quo sint, libero 
+        commodi officia aliquam! Maxime.
+      </p>
+  </div>
+  const linkName=readMore?'Read Less << ':'Read More >> '
+  return (
+    <div className="Test">
+      <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}><h2>{linkName}</h2></a>
+      {readMore && extraContent}
+    </div>
+  );
+}
+
+export default Test;

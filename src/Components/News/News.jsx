@@ -1,10 +1,10 @@
-import React, {createContext} from 'react';
+import React, { useState } from 'react';
 import './News.css';
 import {NewsList} from './NewsList';
 import { Link } from "react-router-dom";
-import New from './New'
 
-let title,content,imageNew;
+
+
 function News() {
   
   return (
@@ -14,13 +14,13 @@ function News() {
     <div>
     <h1>{news.title}</h1>
     <br></br>
+    
     <h2>{news.content}</h2>
-    <Link to="/New" 
-      >
-    <a href="#" className="style-6" onClick={<New title={news.title} content={news.content} image={news.image}/>}>
+   {/* 
+    <a href="" className="style-6">
     المزيد
     </a>
-    </Link>
+    */} 
     </div>
   </div>
 

@@ -8,7 +8,7 @@ import Who from './Components/Who/Who';
 import Team from './Components/Who/Team';
 import Weather from './Components/Weather/Weather';
 import Profile from './Components/Profile/Profile';
-import Test1 from './Components/News/Test1';
+import Test from './Components/Test/Test';
 import WeatherApi from './Components/Weather/WeatherApi';
 import Services from './Components/Services/Services';
 import News from './Components/News/News';
@@ -28,7 +28,7 @@ function App() {
 <Route path='/Team' element={<Team />} />
 <Route path='/Weather' element={<Weather />} />
 <Route path='/Profile' element={<Profile />} />
-<Route path='/Test1' element={<Test1 />} />
+<Route path='/Test' element={<Test />} />
 <Route path='/WeatherApi' element={<WeatherApi />} />
 <Route path='/Services' element={<Services />} />
 <Route path='/News' element={<News />} />
